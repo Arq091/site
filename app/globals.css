@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  padding: 4rem max(min(16rem, calc((100% - 1024px) / 2)), 20px);
+  padding: 2rem max(min(16rem, calc((100% - 1024px) / 2)), 10px);
   height: 100vh;
 }
 
