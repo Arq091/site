@@ -17,7 +17,6 @@ export default function Home() {
           <li>Kong bro...</li>
           <li>"Budheoism" -TN, 2023</li>
         </ul>
-        <CommentSection articleId="HOMEPAGE" />
       </main>
     </div>
   )
