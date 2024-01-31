@@ -1,7 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
-
 export default function Home() {
   return (
     <div>
@@ -14,10 +12,12 @@ export default function Home() {
         </p>
         <p className="pt-8 font-sm font-medium">Read:</p>
         <ul className="px-4 py-1 text-sm child:list-disc">
-          <li className="">TIGGER HAS SMELLY ASS FEET</li>
-          <li className="">Idea, Jigshow, and Gus are little devils.</li>
-          <li>Keith needs better glasses</li>
+          <li className="">TIGGER'S FEET SOUR AF</li>
+          <li className="">Idea, Jigshow, and Gus dont do work.</li>
+          <li>Kong bro...</li>
+          <li>"Budheoism" -TN, 2023</li>
         </ul>
+        <CommentSection articleId="HOMEPAGE" />
       </main>
     </div>
   )
